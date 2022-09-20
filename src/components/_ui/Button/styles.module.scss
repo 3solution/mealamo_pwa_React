@@ -1,0 +1,11 @@
+.wrapper {
+  @apply cursor-pointer inline-flex justify-center w-full px-4 py-2 text-16 font-medium border rounded-md shadow-sm sm:text-14;
+
+  &.primary {
+    @apply text-white bg-indigo-600 border-transparent hover:bg-indigo-700;
+  }
+
+  &.secondary {
+    @apply text-gray-700 bg-white border-gray-300  hover:bg-gray-50;
+  }
+}

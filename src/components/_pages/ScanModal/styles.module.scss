@@ -1,0 +1,15 @@
+.wrapper {
+  @apply w-full text-center;
+
+  .code {
+    @apply flex flex-row items-center justify-center px-4 gap-2 w-full;
+
+    .input {
+      @apply w-full max-w-200 bg-gray-200 outline-none rounded-md h-30 px-2 py-4;
+    }
+  }
+
+  .scanArea {
+    @apply w-full mt-2 bg-gray-200 flex justify-center items-center text-100;
+  }
+}

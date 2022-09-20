@@ -1,0 +1,11 @@
+.wrapper {
+  @apply flex flex-col items-center justify-center;
+
+  .scan {
+    @apply w-200 text-24;
+  }
+
+  .code {
+    @apply text-45 mt-200;
+  }
+}

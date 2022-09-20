@@ -1,0 +1,27 @@
+.wrapper {
+  @apply fixed inset-0 z-10 overflow-y-auto;
+
+  .content {
+    @apply flex items-start justify-center min-h-screen px-4 pt-4 pb-80 text-center sm:p-0 mt-100;
+
+    .translation {
+      @apply fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75;
+    }
+
+    .mainContentWrapper {
+      @apply inline-block px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6;
+
+      .mainContent {
+        @apply mt-3 text-center sm:mt-5;
+
+        .title {
+          @apply text-24 font-medium leading-24 text-gray-900 mb-4;
+        }
+      }
+
+      .buttonWrapper {
+        @apply mt-5 sm:mt-6 sm:grid sm:grid-cols-2 sm:gap-3 sm:grid-flow-row-dense;
+      }
+    }
+  }
+}
